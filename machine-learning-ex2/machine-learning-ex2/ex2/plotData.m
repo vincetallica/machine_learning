@@ -12,9 +12,6 @@ figure; hold on;
 %               examples and 'ko' for the negative examples.
 %
 
-figure; % open a new figure window
-
-
 pos = find(y==1); neg = find(y == 0);
 % Plot Examples
 plot(X(pos, 1), X(pos, 2), 'k+','LineWidth', 2, ...
